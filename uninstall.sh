@@ -1,7 +1,7 @@
 #!/bin/bash
 
-rm ~/.git-bash-for-mac.sh
-rm ~/.git-completion.bash
+rm ~/.git-zsh-for-mac.sh
+rm ~/.git-completion.zsh
 rm ~/.git-prompt.sh
 
-sed -i.backup '/source ~\/.git-bash-for-mac.sh/d' ~/.bash_profile 
+sed -i.backup '/source ~\/.git-zsh-for-mac.sh/d' ~/.zshrc 
