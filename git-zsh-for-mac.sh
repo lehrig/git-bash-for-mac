@@ -21,7 +21,7 @@ CYAN="%{$fg[cyan]%}"
 # see https://wiki.gentoo.org/wiki/Zsh/Guide
 USERNAME='%n'
 MACHINE='%m'
-WORKDIR='%d'
+WORKDIR='%~'
 NEWLINE=$'\n'
 GITBRANCH=$(__git_ps1 " (%s)")
 
