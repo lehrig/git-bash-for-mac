@@ -16,7 +16,7 @@ MACHINE='%m'
 WORKDIR='%d'
 NEWLINE=$'\n'
 GITBRANCH=$(__git_ps1 " (%s)")
-setopt PROMPT_SUBST ; PS1='[${USERNAME}@${MACHINE} ${WORKDIR}${GITBRANCH}]${NEWLINE}\$ '
+setopt PROMPT_SUBST ; PS1='${USERNAME}@${MACHINE} ${WORKDIR}${GITBRANCH}${NEWLINE}\$ '
 
 # color support (to be replaced by https://github.com/Powerlevel9k/powerlevel9k)
 #DEFAULT="\[\033[0;00m\]"
