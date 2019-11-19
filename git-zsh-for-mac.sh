@@ -1,7 +1,8 @@
 #!/bin/bash
 
 # see https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash
-source ~/.zsh/git-completion.bash
+# deprectated; see https://stackoverflow.com/questions/28028740/git-tab-completion-in-zsh-throwing-errors
+# source ~/.zsh/git-completion.bash
 
 # see https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.zsh
 zstyle ':completion:*:*:git:*' script ~/.zsh/git-completion.bash
