@@ -14,7 +14,7 @@ Here it comes the *Git Zsh for Mac*: a nice `Terminal` customisation that always
 Follow these steps:
 1. from the `Terminal`, run
 ```shell
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/fabriziocucci/git-bash-for-mac/master/install.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/lehrig/git-zsh-for-mac/master/install.sh)"
 ```
 2. restart the `Terminal` and enjoy!
 
@@ -23,7 +23,7 @@ Follow these steps:
 Follow these steps:
 1. from the `Terminal`, run
 ```shell
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/fabriziocucci/git-bash-for-mac/master/uninstall.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/lehrig/git-zsh-for-mac/master/uninstall.sh)"
 ```
 2. restart the `Terminal` and (un)enjoy!
 
