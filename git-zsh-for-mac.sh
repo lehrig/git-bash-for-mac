@@ -4,7 +4,7 @@
 source ~/.zsh/git-completion.bash
 
 # see https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.zsh
-zstyle ':completion:*:*:git:*' script ~/.zsh/git-completion.zsh
+zstyle ':completion:*:*:git:*' script ~/.zsh/git-completion.bash
 fpath=(~/.zsh $fpath)
 
 # see https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh
