@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source ~/.git-completion.bash
+source ~/.git-completion.zsh
 source ~/.git-prompt.sh
 
 DEFAULT="\[\033[0;00m\]"
