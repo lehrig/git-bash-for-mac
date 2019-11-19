@@ -9,9 +9,11 @@ fpath=(~/.zsh $fpath)
 
 # see https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh
 source ~/.zsh/git-prompt.sh
+
+# see https://wiki.gentoo.org/wiki/Zsh/Guide
 USERNAME='%n'
 MACHINE='%m'
-WORKDIR='%c'
+WORKDIR='%d'
 NEWLINE=$'\n'
 GITBRANCH=$(__git_ps1 " (%s)")
 setopt PROMPT_SUBST ; PS1='[${USERNAME}@${MACHINE} ${WORKDIR}${GITBRANCH}]${NEWLINE}\$ '
